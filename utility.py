@@ -5,7 +5,7 @@ Created on Wed Jan 22 22:30:29 2020
 @author: Khare
 """
 import numpy as np
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.metrics import mean_squared_error
 from math import sqrt
 
 def evaluate_model(forecast, actual):
@@ -18,3 +18,4 @@ def evaluate_model(forecast, actual):
     print('MAPE:{}'.format(mape))
     print('MPE:{}'.format(mpe))
     print('--------------------')  
+ 
